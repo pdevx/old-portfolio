@@ -1,0 +1,405 @@
+/* app css stylesheet */
+
+[class^="fa-"], [class*=" fa-"] {
+    display: inline-block;
+    width: 100%;
+}
+
+body {
+  padding-top:70px;
+}
+
+body.home{
+	padding-top:0px;
+}
+
+body.home > .navbar-transparent {
+    background-color: rgba(0, 0, 0, 0.1);
+    border:none;
+    margin-bottom:0;
+}
+
+#homesplash {
+	display:none;
+}
+
+#homesplash2 {
+  background-attachment: fixed;
+  background-color: #141d27;
+  background-image: url(../img/coffee.jpg);
+  background-size: cover;
+  color: #fff;
+	display:block;
+	height:350px;
+  text-align: center;
+}
+
+#homesplash2 .section{
+	background-color: rgba(0, 0, 0, 0.25);
+	height:100%;
+	padding:0;
+	width:100%;
+}
+
+#homesplash2 .container{
+	padding-top:50px;
+}
+
+#musicsplash {
+  background-attachment: fixed;
+  background-color: #141d27;
+  background-image: url(../img/GTG-fam.jpg);
+  background-size: cover;
+  color: #fff;
+	display:block;
+	height:350px;
+  text-align: center;
+}
+
+#socialmedia {
+  background-attachment: fixed;
+	background-image: url(../img/guitar.jpg);
+  background-size: cover;
+	color:#FFF;
+	display:block;
+	min-height:350px;
+	padding:50px 0;
+}
+
+#socialmedia i {
+	color:#FFF;
+}
+
+body.home > #homesplash {
+  background-attachment: fixed;
+  background-color: #141d27;
+  background-image: url(../img/greenphone.jpg);
+  background-size: cover;
+  color: #fff;
+	display:block;
+  text-align: center;
+}
+
+body.home > .splash > .section{
+	background-color: rgba(0, 0, 0, 0.3);
+	padding:0;
+}
+
+body.home > .splash > .section > .container > .jumbotron {
+	background-color: transparent;
+}
+
+body.jquerymap {
+	max-height:1500px;
+}
+
+.videoWrapper {
+	height: 0;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	position: relative;
+}
+.videoWrapper iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.btn-primary {
+	margin-right: 20px;
+}
+
+.carousel-caption.ng-scope {
+	display:none;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+.col-lg-12{
+	padding-top:10px;
+}
+
+.companies {
+	height:80px;
+	margin: 0 auto;
+}
+
+#axis {
+	height:100px;
+	margin-bottom:20px;
+}
+
+#navex{
+	height:60px;
+	margin-bottom:20px;
+}
+
+.fa{
+	text-align:center;
+}
+
+.flyer {
+	padding:10px;
+}
+
+.footer{
+	margin-top: 50px;
+}
+
+.form-control{
+	margin: 20px 0;
+}
+
+.navbar-header {
+	margin:0;
+}
+
+.red {
+	color:red;
+}
+
+.row {
+	padding: 50px 0;
+}
+
+.left{
+	float:left;
+	text-align:left;
+}
+
+.right{
+	float:right;
+	text-align:right;
+}
+
+.top {
+	margin-top:0px;
+}
+
+#imageMap{
+position:relative;
+display: block;
+overflow:hidden;
+width:800px;
+height:400px;	
+}
+
+#map{
+position: absolute;
+z-index: 100;
+}
+
+.clip{
+position:absolute;
+clip:rect(1200px 800px 1600px 0);
+left:0px;
+top:-1200px;
+}
+
+.clip-Algeria{
+clip:rect(0, 800px, 400px, 0);
+left:0px;
+top:0px;
+}
+
+.clip-Argentina{
+clip:rect(0 1600px 400px 800px);
+left:-800px;
+top:0px;
+}
+
+.clip-Belgium{
+clip:rect(0 2400px 400px 1600px);
+left:-1600px;
+top:0px;
+}
+
+.clip-Brazil{
+clip:rect(0 3200px 400px 2400px);
+left:-2400px;
+top:0px;
+}
+
+.clip-Bulgaria{
+clip:rect(400px 800px 800px 0);
+left:0px;
+top:-400px;
+}
+
+.clip-Canada{
+clip:rect(400px 1600px 800px 800px);
+left:-800px;
+top:-400px;
+}
+
+.clip-Chile{
+clip:rect(400px 2400px 800px 1600px);
+left:-1600px;
+top:-400px;
+}
+
+.clip-Colombia{
+clip:rect(400px 3200px 800px 2400px);
+left:-2400px;
+top:-400px;
+}
+
+.clip-Costa_Rica{
+clip:rect(800px 800px 1200px 0);
+left:0px;
+top:-800px;
+}
+
+.clip-Croatia{
+clip:rect(800px 1600px 1200px 800px);
+left:-800px;
+top:-800px;
+}
+
+.clip-Czech_Republic{
+clip:rect(800px 2400px 1200px 1600px);
+left:-1600px;
+top:-800px;
+}
+
+.clip-France{
+clip:rect(800px 3200px 1200px 2400px);
+left:-2400px;
+top:-800px;
+}
+
+/*.clip-full{
+clip:rect(1200px 800px 1600px 0);
+left:0px;
+top:-1200px;
+}*/
+
+.clip-Germany{
+clip:rect(1200px 1600px 1600px 800px);
+left:-800px;
+top:-1200px;
+}
+
+.clip-Greece{
+clip:rect(1200px 2400px 1600px 1600px);
+left:-1600px;
+top:-1200px;
+}
+
+.clip-Guatemala{
+clip:rect(1200px 3200px 1600px 2400px);
+left:-2400px;
+top:-1200px;
+}
+
+.clip-India{
+clip:rect(1600px 800px 2000px 0);
+left:0px;
+top:-1600px;
+}
+
+.clip-Indonesia{
+clip:rect(1600px 1600px 2000px 800px);
+left:-800px;
+top:-1600px;
+}
+
+.clip-Italy{
+clip:rect(1600px 2400px 2000px 1600px);
+left:-1600px;
+top:-1600px;
+}
+
+.clip-Mexico{
+clip:rect(1600px 3200px 2000px 2400px);
+left:-2400px;
+top:-1600px;
+}
+
+.clip-Morocco{
+clip:rect(2000px 800px 2400px 0);
+left:0px;
+top:-2000px;
+}
+
+.clip-Netherlands{
+clip:rect(2000px 1600px 2400px 800px);
+left:-800px;
+top:-2000px;
+}
+
+.clip-Panama{
+clip:rect(2000px 2400px 2400px 1600px);
+left:-1600px;
+top:-2000px;
+}
+
+.clip-Peru{
+clip:rect(2000px 3200px 2400px 2400px);
+left:-2400px;
+top:-2000px;
+}
+
+.clip-Poland{
+clip:rect(2400px 800px 2800px 0);
+left:0px;
+top:-2400px;
+}
+
+.clip-Portugal{
+clip:rect(2400px 1600px 2800px 800px);
+left:-800px;
+top:-2400px;
+}
+
+.clip-Romania{
+clip:rect(2400px 2400px 2800px 1600px);
+left:-1600px;
+top:-2400px;
+}
+
+.clip-Russia{
+clip:rect(2400px 3200px 2800px 2400px);
+left:-2400px;
+top:-2400px;
+}
+
+.clip-Slovakia{
+clip:rect(2800px 800px 3200px 0);
+left:0px;
+top:-2800px;
+}
+
+.clip-South_Africa{
+clip:rect(2800px 1600px 3200px 800px);
+left:-800px;
+top:-2800px;
+}
+
+.clip-Spain{
+clip:rect(2800px 2400px 3200px 1600px);
+left:-1600px;
+top:-2800px;
+}
+
+.clip-Uruguay{
+clip:rect(2800px 3200px 3200px 2400px);
+left:-2400px;
+top:-2800px;
+}
+
+.clip-USA{
+clip:rect(3200px 800px 3600px 0);
+left:0px;
+top:-3200px;
+}
+
+.country{
+min-height:200px;
+}
